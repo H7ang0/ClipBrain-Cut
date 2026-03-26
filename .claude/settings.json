@@ -6,6 +6,21 @@
         "clipbrain_search.py"
       ],
       "description": "ClipBrain Cut: A semantic video clip retrieval tool. Use this tool when the user asks to find specific video footage, actions, or emotions from their local library. Pass the user's requirement as the 'query' argument."
+    {
+  "mcpServers": {
+    "clipbrain_search": {
+      "command": "python3",
+      "args": [
+        "clipbrain_search.py"
+      ],
+      "description": "ClipBrain Cut Search Tool. Use this to find specific video clips from the local database based on user prompts."
+    },
+    "clipbrain_export": {
+      "command": "python3",
+      "args": [
+        "clipbrain_export.py"
+      ],
+      "description": "ClipBrain Cut Export Tool. Use this tool AFTER retrieving clips to generate a CapCut (剪映) project timeline. Pass the desired project name as arg1, and the exact JSON output from clipbrain_search as arg2."
     }
   }
 }
