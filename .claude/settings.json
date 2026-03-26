@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "clipbrain_search": {
+      "command": "python3",
+      "args": [
+        "clipbrain_search.py"
+      ],
+      "description": "ClipBrain Cut: A semantic video clip retrieval tool. Use this tool when the user asks to find specific video footage, actions, or emotions from their local library. Pass the user's requirement as the 'query' argument."
+    }
+  }
+}
